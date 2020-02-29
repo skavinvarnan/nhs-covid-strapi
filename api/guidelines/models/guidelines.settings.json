@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "Guidelines"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "guidelines"
+}

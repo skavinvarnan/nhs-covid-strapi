@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Item",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_guideline_items"
+}

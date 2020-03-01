@@ -13,8 +13,7 @@
     },
     "order": {
       "type": "integer",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "items": {
       "type": "component",

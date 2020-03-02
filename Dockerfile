@@ -16,7 +16,7 @@ COPY yarn.lock ./
 
 # Server info
 ENV APP_HOST=$app_host
-ENV PORT=4547
+ENV PORT=80
 ENV NODE_ENV=production
 
 # DB Info
@@ -29,6 +29,6 @@ COPY . .
 
 RUN yarn build
 
-EXPOSE 4547
+EXPOSE 80
 
 CMD [ "pm2-runtime", "./server.js" ]

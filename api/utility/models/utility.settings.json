@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Utility"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "messageOfTheDay": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "utilities"
+}
